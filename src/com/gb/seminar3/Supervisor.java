@@ -29,7 +29,7 @@ public class Supervisor extends Employee {
 
     @Override
     public void work() {
-        System.out.println("Руководитель контролирует");
+        System.out.println("Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РєРѕРЅС‚СЂРѕР»РёСЂСѓРµС‚");
     }
 
     public static void salaryIncrease(Employee[] workers, int age, int addSalary) {
