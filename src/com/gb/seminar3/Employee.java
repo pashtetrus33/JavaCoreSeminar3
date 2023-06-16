@@ -1,7 +1,7 @@
 package com.gb.seminar3;
 
 /**
- * Класс с описанием сотрудника
+ * РљР»Р°СЃСЃ СЃ РѕРїРёСЃР°РЅРёРµРј СЃРѕС‚СЂСѓРґРЅРёРєР°
  **/
 public class Employee implements Comparable {
 
@@ -88,7 +88,7 @@ public class Employee implements Comparable {
     }
 
     public void work() {
-        System.out.println("Работник работает");
+        System.out.println("Р Р°Р±РѕС‚РЅРёРє СЂР°Р±РѕС‚Р°РµС‚");
     }
 
     @Override
