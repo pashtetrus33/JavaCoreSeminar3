@@ -27,13 +27,13 @@ public class Main {
             e.work();
         }
 
-        System.out.println("Количество созданных сотрудников: " + Employee.total + ". Из них руководителей: " + Supervisor.totalSupervisors);
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРѕР·РґР°РЅРЅС‹С… СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ: " + Employee.total + ". РР· РЅРёС… СЂСѓРєРѕРІРѕРґРёС‚РµР»РµР№: " + Supervisor.totalSupervisors);
 
-        //Cортировка по фамилии (по умолчанию в классе Employee)
+        //CРѕСЂС‚РёСЂРѕРІРєР° РїРѕ С„Р°РјРёР»РёРё (РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РІ РєР»Р°СЃСЃРµ Employee)
         Arrays.sort(employees);
-        //Cортировка по увеличению зп (реализован компоратор - класс EmployeeSalaryComporator)
+        //CРѕСЂС‚РёСЂРѕРІРєР° РїРѕ СѓРІРµР»РёС‡РµРЅРёСЋ Р·Рї (СЂРµР°Р»РёР·РѕРІР°РЅ РєРѕРјРїРѕСЂР°С‚РѕСЂ - РєР»Р°СЃСЃ EmployeeSalaryComporator)
         Arrays.sort(employees, new EmployeeSalaryComporator());
-        //Cортировка по увеличению возраста (реализован компоратор - класс EmployeeAgeComporator)
+        //CРѕСЂС‚РёСЂРѕРІРєР° РїРѕ СѓРІРµР»РёС‡РµРЅРёСЋ РІРѕР·СЂР°СЃС‚Р° (СЂРµР°Р»РёР·РѕРІР°РЅ РєРѕРјРїРѕСЂР°С‚РѕСЂ - РєР»Р°СЃСЃ EmployeeAgeComporator)
         Arrays.sort(employees, new EmployeeAgeComporator());
 
         for (Employee e : employees) {
